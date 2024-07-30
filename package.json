@@ -1,0 +1,16 @@
+{
+  "name": "abstract-help-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/index.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7",
+    "tailwindcss-debug-screens": "^2.2.1"
+  }
+}
