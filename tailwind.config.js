@@ -13,10 +13,9 @@ module.exports = {
     },
     colors: {
       black: "#000000",
-      white: "#FFFFFF",
-      gray: "#A4A5A6",
+      white: "#FFF",
       "blue-100": "#DADBF1",
-      "blue-500": "#4C5FD5",
+      "blue-200": "#4C5FD5",
     },
     fontFamily: {
       "GT-America": ['"GT-America"', "sans-serif"],
