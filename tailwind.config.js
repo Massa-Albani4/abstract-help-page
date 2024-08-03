@@ -1,16 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  purge: ["./src/**/*.{html,js}"],
+  content: [],
   theme: {
-    extend: {
-      spacing: {
-        100: "0.375rem",
-        200: "1rem",
-        300: "1.25rem",
-        400: "1.875rem",
-        500: "3rem",
-      },
-    },
+    extend: {},
     colors: {
       black: "#000000",
       white: "#FFF",
