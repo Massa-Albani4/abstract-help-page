@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "GT-America";
+  font-weight: 400;
+  src: url("/public/fonts/gt-america-standard-medium-trial-webfont.woff2")
+    format("woff2");
+}
