@@ -7,7 +7,7 @@
     <link href="/public/output.css" rel="stylesheet" />
     <title>Abstract</title>
   </head>
-  <body>
+  <body class="debug-screens">
     <header class="text-white font-GT-America">
       <nav class="flex w-full py-5 bg-black">
         <ul class="flex flex-row">
@@ -150,9 +150,24 @@
       </nav>
     </header>
     <main class="font-GT-America">
-      <section>
-        <h1 class="text-7xl">How can we help?</h1>
-        <input type="search" name="" id="" />
+      <section
+        class="flex flex-col items-center justify-center px-[.85rem] pb-[7.3rem] pt-20 bg-blue-100"
+      >
+        <h1
+          class="tracking-[-.25rem] text-[2.5rem] font-medium leading-10 text-black"
+        >
+          How can we help?
+        </h1>
+        <form action="submit">
+          <input
+            class="w-full shadow-[0px_7px_20px_2px_#b9c3cc] border-solid text-[1.28rem] mt-[3.12rem] py-4 border-[1px] px-4 border-black rounded-md"
+            type="search"
+            placeholder="Search"
+            name="search"
+            id="search_input"
+          />
+          <input type="submit" value="" />
+        </form>
       </section>
       <section>
         <div>
