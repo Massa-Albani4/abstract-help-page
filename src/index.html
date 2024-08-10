@@ -9,7 +9,7 @@
   </head>
   <body class="h-screen debug-screens">
     <header class="text-white font-GT-America">
-      <nav class="flex w-full py-5 bg-black">
+      <nav class="flex w-full py-5 bg-black lg:py-4 lg:px-20">
         <ul class="flex flex-row">
           <li class="flex items-center justify-center">
             <a class="ml-4" href="https://www.abstract.com/">
@@ -79,7 +79,7 @@
             >
           </li>
         </ul>
-        <div class="mt-[.65rem] ml-[5.5rem] mr-[.5rem] w-8 h-8">
+        <div class="mt-[.65rem] lg:hidden ml-[5.5rem] mr-[.5rem] w-8 h-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 26 26"
@@ -145,9 +145,12 @@
             ></line>
           </svg>
         </div>
-        <a class="hidden mr-6 bg-blue-200 lg:inline w-14 h-14" href="#"
-          >Submit a request</a
+        <div
+          class="hidden lg:mt-[.17rem] mr-6 rounded-lg justify-center lg:flex items-center lg:h-[3.1rem] border-white border-[1px] bg-[#161616] lg:w-[14.5rem] lg:ml-80"
         >
+          <a class="text-[1.4rem]" href="#">Submit a request</a>
+        </div>
+
         <a class="hidden bg-blue-200 lg:inline h-14 w-14" href="#">Sign In</a>
       </nav>
     </header>
