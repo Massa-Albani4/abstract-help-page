@@ -9,7 +9,7 @@
   </head>
   <body class="h-screen debug-screens">
     <header class="text-white font-GT-America">
-      <nav class="flex w-full py-5 bg-black lg:py-[1.18rem] lg:px-20">
+      <nav class="flex w-full py-5 bg-black-200 xl:py-[1.18rem] xl:px-20">
         <ul class="flex flex-row">
           <li class="flex items-center justify-center">
             <a class="ml-[.85rem]" href="https://www.abstract.com/">
@@ -73,13 +73,13 @@
           <li class="flex items-center">
             <span class="text-[2rem] ml-[.47rem] mr-[.55rem] font-thin">|</span>
             <a
-              class="mt-[.35rem] lg:mt-[.3rem] text-[1.45rem] font-medium"
+              class="mt-[.35rem] xl:mt-[.3rem] text-[1.45rem] font-medium"
               href="./index.html"
               >Help Center</a
             >
           </li>
         </ul>
-        <div class="mt-[.65rem] lg:hidden ml-[5.5rem] mr-[.5rem] w-8 h-8">
+        <div class="mt-[.65rem] xl:hidden ml-[5.5rem] mr-[.5rem] w-8 h-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 26 26"
@@ -110,7 +110,7 @@
         <div class="w-9 h-9">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="mt-[.4rem] lg:hidden"
+            class="mt-[.4rem] xl:hidden"
             viewBox="0 0 22 22"
             fill="none"
             stroke="currentColor"
@@ -146,12 +146,12 @@
           </svg>
         </div>
         <div
-          class="hidden lg:mr-4 rounded-lg justify-center lg:flex items-center lg:h-[3.15rem] border-white border-[1px] bg-[#161616] lg:w-[14.5rem] lg:ml-[28.6rem]"
+          class="hidden xl:mr-4 rounded-lg justify-center xl:flex items-center xl:h-[3.15rem] border-white border-[1px] bg-[#161616] xl:w-[14.5rem] xl:ml-[28.6rem]"
         >
-          <a class="text-[1.5rem] tracking-wide" href="#">Submit a request</a>
+          <a class="text-2xl tracking-wide" href="#">Submit a request</a>
         </div>
         <div
-          class="text-[1.5rem] hidden bg-blue-200 lg:h-[3.15rem] rounded-lg lg:flex lg:justify-center lg:items-center lg:w-[8.8rem]"
+          class="text-2xl hidden bg-blue-200 xl:h-[3.15rem] rounded-lg xl:flex xl:justify-center xl:items-center xl:w-[8.8rem]"
         >
           <a href="#">Sign In</a>
         </div>
@@ -159,16 +159,16 @@
     </header>
     <main class="font-GT-America">
       <section
-        class="flex flex-col items-center justify-center px-[.85rem] lg:px-[19.7rem] lg:pt-[7.75rem] lg:pb-[7.3rem] pb-[8rem] pt-20 bg-blue-100"
+        class="flex flex-col items-center justify-center px-[.85rem] xl:px-[19.7rem] xl:pt-[7.75rem] xl:pb-[7.3rem] pb-[8rem] pt-20 bg-blue-100"
       >
         <h1
-          class="tracking-[-.25rem] lg:tracking-[-.15rem] lg:text-[4.8rem] text-[2.5rem] font-medium leading-10"
+          class="tracking-[-.25rem] xl:tracking-[-.15rem] xl:text-[4.8rem] text-[2.5rem] font-medium leading-10"
         >
           How can we help?
         </h1>
         <form class="relative w-full" action="submit">
           <input
-            class="w-full shadow-[0px_7px_20px_2px_#b9c3cc] border-solid text-[1.29rem] mt-[3.3rem] py-4 border-[1px] px-4 border-black rounded-[.225rem]"
+            class="w-full shadow-[0px_7px_20px_2px_#b9c3cc] border-solid text-[1.29rem] xl:text-xl mt-[3.3rem] xl:py-[1.1rem] py-4 border-[1px] px-4 border-black-200 rounded-[.225rem]"
             type="search"
             placeholder="Search"
             name="search"
@@ -180,7 +180,7 @@
             value=""
           />
           <div
-            class="absolute w-8 h-6 lg:w-7 lg:h-5 right-3 lg:right-[.85rem] lg:top-[4.6rem] top-[4.3rem]"
+            class="absolute w-8 h-6 xl:w-7 xl:h-5 right-3 xl:right-[.85rem] xl:top-[4.6rem] top-[4.3rem]"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
               <path
@@ -195,161 +195,191 @@
           </div>
         </form>
       </section>
-      <section
-        class="flex flex-col px-12 lg:px-36 lg:flex-row lg:flex-wrap py-28 lg:py-40"
-      >
-        <div class="flex flex-row lg:w-1/2">
-          <div class="w-[4.15rem] mt-1 mr-7">
-            <img src="/public/assets/icon-versions.png" alt="" />
-          </div>
-          <div class="flex flex-col w-64 lg:w-96">
-            <p
-              class="pb-[.9rem] text-[#242424] text-2xl font-semibold tracking-tight"
-            >
-              Using Abstract
-            </p>
-            <p class="text-2xl">
-              Abstract lets you manage, version, and document your designs in
-              one place.
-            </p>
-            <div
-              class="flex flex-row mt-[1.2rem] text-[1.28rem] font-semibold text-blue-200"
-            >
-              <a href="#">Learn More</a>
-              <img
-                class="mt-[.1rem] ml-3 w-7"
-                src="/public/assets/slim-arrow.png"
-                alt=""
-              />
+      <section class="px-12 xl:px-[9.3rem] py-28 xl:py-40">
+        <div class="flex flex-col xl:grid xl:grid-cols-2">
+          <div class="flex flex-row">
+            <div class="w-[4.15rem] xl:w-[5.4rem] mt-1 mr-7">
+              <img src="/public/assets/icon-versions.png" alt="" />
+            </div>
+            <div class="flex flex-col w-64 text-black xl:w-[25rem]">
+              <p
+                class="pb-[.9rem] xl:pb-4 text-2xl font-semibold tracking-tight xl:tracking-normal"
+              >
+                Using Abstract
+              </p>
+              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+                Abstract lets you manage, version, and document your designs in
+                one place.
+              </p>
+              <div
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold xl:text-[1.2rem] xl:font-medium text-blue-200"
+              >
+                <a href="#">Learn More</a>
+                <img
+                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.65rem] xl:ml-2"
+                  src="/public/assets/arrow-1.jpg"
+                  srcset="
+                    /public/assets/arrow-1.jpg,
+                    /public/assets/arrow-2.jpg 2x
+                  "
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex lg:w-1/2 lg:mt-0 flex-row mt-[5.7rem]">
-          <div class="w-[4.15rem] mt-1 mr-7">
-            <img src="/public/assets/icon-account.png" alt="" />
-          </div>
-          <div class="flex flex-col w-64 lg:w-80">
-            <p
-              class="pb-[.9rem] text-[1.51rem] text-[#242424] font-semibold tracking-tight"
-            >
-              Manage your account
-            </p>
-            <p class="text-2xl">
-              Configure your account settings, such as your email, profile
-              details, and password.
-            </p>
-            <div
-              class="flex flex-row mt-[1.2rem] text-[1.28rem] font-semibold text-blue-200"
-            >
-              <a href="#">Learn More</a>
-              <img
-                class="mt-[.1rem] ml-3 w-7"
-                src="/public/assets/slim-arrow.png"
-                alt=""
-              />
+          <div class="flex xl:mt-0 flex-row mt-[5.7rem]">
+            <div class="w-[4.15rem] mt-1 mr-7 xl:w-[5.4rem]">
+              <img src="/public/assets/icon-account.png" alt="" />
+            </div>
+            <div class="flex flex-col w-64 xl:w-[24rem] text-black">
+              <p
+                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+              >
+                Manage your account
+              </p>
+              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+                Configure your account settings, such as your email, profile
+                details, and password.
+              </p>
+              <div
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold xl:text-[1.2rem] xl:font-medium text-blue-200"
+              >
+                <a href="#">Learn More</a>
+                <img
+                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.65rem] xl:ml-2"
+                  src="/public/assets/arrow-1.jpg"
+                  srcset="
+                    /public/assets/arrow-1.jpg,
+                    /public/assets/arrow-2.jpg 2x
+                  "
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-row lg:w-1/2 mt-[5.7rem]">
-          <div class="w-[4.15rem] mt-1 mr-7">
-            <img src="/public/assets/icon-organizations.png" alt="" />
-          </div>
-          <div class="flex flex-col w-64">
-            <p
-              class="pb-[.9rem] text-[1.51rem] text-[#242424] font-semibold tracking-tight"
-            >
-              Manage organizations, teams, and projects
-            </p>
-            <p class="text-2xl">
-              Use Abstract organizations, teams, and projects to organize your
-              people and your work.
-            </p>
-            <div
-              class="flex flex-row mt-[1.2rem] text-[1.28rem] font-semibold text-blue-200"
-            >
-              <a href="#">Learn More</a>
-              <img
-                class="mt-[.1rem] ml-3 w-7"
-                src="/public/assets/slim-arrow.png"
-                alt=""
-              />
+          <div class="flex flex-row mt-[5.7rem]">
+            <div class="w-[4.15rem] mt-1 mr-7 xl:w-[5.4rem]">
+              <img src="/public/assets/icon-organizations.png" alt="" />
+            </div>
+            <div class="flex flex-col w-64 xl:w-[25rem] text-black">
+              <p
+                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+              >
+                Manage organizations, teams, and projects
+              </p>
+              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+                Use Abstract organizations, teams, and projects to organize your
+                people and your work.
+              </p>
+              <div
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold xl:text-[1.2rem] xl:font-medium text-blue-200"
+              >
+                <a href="#">Learn More</a>
+                <img
+                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.65rem] xl:ml-2"
+                  src="/public/assets/arrow-1.jpg"
+                  srcset="
+                    /public/assets/arrow-1.jpg,
+                    /public/assets/arrow-2.jpg 2x
+                  "
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-row mt-[5.7rem]">
-          <div class="w-[4.3rem] mt-1 mr-7">
-            <img src="/public/assets/icon-billing.png" alt="" />
-          </div>
-          <div class="flex flex-col w-64">
-            <p
-              class="pb-[.9rem] text-[1.51rem] text-[#242424] font-semibold tracking-tight"
-            >
-              Manage billing
-            </p>
-            <p class="text-2xl">Change subscriptions and payment details.</p>
-            <div
-              class="flex flex-row mt-[1.2rem] text-[1.28rem] font-semibold text-blue-200"
-            >
-              <a href="#">Learn More</a>
-              <img
-                class="mt-[.1rem] ml-3 w-7"
-                src="/public/assets/slim-arrow.png"
-                alt=""
-              />
+          <div class="flex flex-row mt-[5.7rem] xl:w-[30rem]">
+            <div class="w-[4.3rem] mt-1 mr-7 xl:w-[5.4rem]">
+              <img src="/public/assets/icon-billing.png" alt="" />
+            </div>
+            <div class="flex flex-col w-64 xl:w-[23rem] text-black">
+              <p
+                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+              >
+                Manage billing
+              </p>
+              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+                Change subscriptions and payment details.
+              </p>
+              <div
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold xl:text-[1.2rem] xl:font-medium text-blue-200"
+              >
+                <a href="#">Learn More</a>
+                <img
+                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.65rem] xl:ml-2"
+                  src="/public/assets/arrow-1.jpg"
+                  srcset="
+                    /public/assets/arrow-1.jpg,
+                    /public/assets/arrow-2.jpg 2x
+                  "
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-row mt-[5.7rem]">
-          <div class="w-[4.3rem] mt-1 mr-7">
-            <img src="/public/assets/icon-authenticate.png" alt="" />
-          </div>
-          <div class="flex flex-col w-64">
-            <p
-              class="pb-[.9rem] text-[1.51rem] text-[#242424] font-semibold tracking-tight"
-            >
-              Authenticate to Abstract
-            </p>
-            <p class="text-2xl">
-              Set up an configure SSO, SCIM, and Just-in-Time provisioning.
-            </p>
-            <div
-              class="flex flex-row mt-[1.2rem] text-[1.28rem] font-semibold text-blue-200"
-            >
-              <a href="#">Learn More</a>
-              <img
-                class="mt-[.1rem] ml-3 w-7"
-                src="/public/assets/slim-arrow.png"
-                alt=""
-              />
+          <div class="flex flex-row mt-[5.7rem] xl:w-[30rem]">
+            <div class="w-[4.3rem] mt-1 mr-7 xl:w-[5.4rem]">
+              <img src="/public/assets/icon-authenticate.png" alt="" />
+            </div>
+            <div class="flex flex-col w-64 text-black xl:w-96">
+              <p
+                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+              >
+                Authenticate to Abstract
+              </p>
+              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+                Set up an configure SSO, SCIM, and Just-in-Time provisioning.
+              </p>
+              <div
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold xl:text-[1.2rem] xl:font-medium text-blue-200"
+              >
+                <a href="#">Learn More</a>
+                <img
+                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.64rem] xl:ml-2"
+                  src="/public/assets/arrow-1.jpg"
+                  srcset="
+                    /public/assets/arrow-1.jpg,
+                    /public/assets/arrow-2.jpg 2x
+                  "
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-row mt-24">
-          <div class="w-[4.3rem] mt-1 mr-7">
-            <img src="/public/assets/icon-comment.png" alt="" />
-          </div>
-          <div class="flex flex-col w-64">
-            <p
-              class="pb-[.9rem] text-[1.51rem] text-[#242424] font-semibold tracking-tight"
-            >
-              Abstract support
-            </p>
-            <p class="text-2xl">Get in touch with a human.</p>
-            <div
-              class="flex flex-row mt-[1.2rem] text-[1.28rem] font-semibold text-blue-200"
-            >
-              <a href="#">Learn More</a>
-              <img
-                class="mt-[.1rem] ml-3 w-7"
-                src="/public/assets/slim-arrow.png"
-                alt=""
-              />
+          <div class="flex flex-row mt-24 xl:w-[30rem]">
+            <div class="w-[4.3rem] mt-1 mr-7 xl:w-[5.4rem]">
+              <img src="/public/assets/icon-comment.png" alt="" />
+            </div>
+            <div class="flex flex-col w-64 text-black xl:w-96">
+              <p
+                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+              >
+                Abstract support
+              </p>
+              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+                Get in touch with a human.
+              </p>
+              <div
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold xl:text-[1.2rem] xl:font-medium text-blue-200"
+              >
+                <a href="#">Learn More</a>
+                <img
+                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.64rem] xl:ml-2"
+                  src="/public/assets/arrow-1.jpg"
+                  srcset="
+                    /public/assets/arrow-1.jpg,
+                    /public/assets/arrow-2.jpg 2x
+                  "
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="grid grid-cols-2 px-4 text-white bg-black font-GT-America">
+    <footer
+      class="grid grid-cols-2 px-4 text-white bg-black-200 font-GT-America"
+    >
       <div class="flex flex-col font-semibold mt-11">
         <p class="text-[1.51rem]">Abstract</p>
         <a class="mt-2 text-[1.08rem]" href="#">Start Trial</a>
@@ -360,8 +390,8 @@
         <p class="text-[1.51rem] font-semibold">Resources</p>
         <a class="mt-2 text-[1.08rem]" href="#">Blog</a>
         <a class="text-[1.08rem]" href="#">Help Center</a>
-        <a class="text-[1.08rem]" text-lg href="#">Release Notes</a>
-        <a class="text-[1.08rem]" text-lg href="#">Status</a>
+        <a class="text-[1.08rem]" text-xl href="#">Release Notes</a>
+        <a class="text-[1.08rem]" text-xl href="#">Status</a>
       </div>
       <div class="flex flex-col mt-11">
         <p class="text-[1.51rem] font-semibold">Community</p>
