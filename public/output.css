@@ -675,10 +675,6 @@ video {
   margin-top: 1.75rem;
 }
 
-.mt-\[\.1rem\] {
-  margin-top: .1rem;
-}
-
 .mt-\[\.2rem\] {
   margin-top: .2rem;
 }
@@ -750,10 +746,6 @@ video {
 
 .w-9 {
   width: 2.25rem;
-}
-
-.w-\[\.875rem\] {
-  width: .875rem;
 }
 
 .w-\[4\.15rem\] {
@@ -1001,6 +993,10 @@ video {
     margin-left: 0.5rem;
   }
 
+  .xl\:ml-\[20\.4rem\] {
+    margin-left: 20.4rem;
+  }
+
   .xl\:ml-\[28\.6rem\] {
     margin-left: 28.6rem;
   }
@@ -1013,60 +1009,68 @@ video {
     margin-top: 0px;
   }
 
-  .xl\:mt-\[\.3rem\] {
-    margin-top: .3rem;
-  }
-
-  .xl\:mt-\[\.6rem\] {
-    margin-top: .6rem;
-  }
-
-  .xl\:mt-\[1rem\] {
-    margin-top: 1rem;
-  }
-
   .xl\:mt-4 {
     margin-top: 1rem;
   }
 
-  .xl\:mt-3 {
-    margin-top: 0.75rem;
+  .xl\:mt-48 {
+    margin-top: 12rem;
   }
 
-  .xl\:mt-\[\.7rem\] {
-    margin-top: .7rem;
+  .xl\:mt-\[\.3rem\] {
+    margin-top: .3rem;
   }
 
-  .xl\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
-  .xl\:mt-\[65rem\] {
-    margin-top: 65rem;
+  .xl\:mt-\[\.64rem\] {
+    margin-top: .64rem;
   }
 
   .xl\:mt-\[\.65rem\] {
     margin-top: .65rem;
   }
 
-  .xl\:mt-\[\.68rem\] {
-    margin-top: .68rem;
+  .xl\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
-  .xl\:mt-\[\.67rem\] {
-    margin-top: .67rem;
+  .xl\:mb-32 {
+    margin-bottom: 8rem;
   }
 
-  .xl\:mt-\[\.66rem\] {
-    margin-top: .66rem;
+  .xl\:mb-24 {
+    margin-bottom: 6rem;
   }
 
-  .xl\:mt-\[\.63rem\] {
-    margin-top: .63rem;
+  .xl\:mb-20 {
+    margin-bottom: 5rem;
   }
 
-  .xl\:mt-\[\.64rem\] {
-    margin-top: .64rem;
+  .xl\:mb-14 {
+    margin-bottom: 3.5rem;
+  }
+
+  .xl\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .xl\:mb-\[5\.5rem\] {
+    margin-bottom: 5.5rem;
+  }
+
+  .xl\:mb-\[7rem\] {
+    margin-bottom: 7rem;
+  }
+
+  .xl\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .xl\:mt-44 {
+    margin-top: 11rem;
+  }
+
+  .xl\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .xl\:flex {
@@ -1125,12 +1129,20 @@ video {
     width: 5.4rem;
   }
 
+  .xl\:w-\[55rem\] {
+    width: 55rem;
+  }
+
   .xl\:w-\[8\.8rem\] {
     width: 8.8rem;
   }
 
   .xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .xl\:items-center {
@@ -1146,6 +1158,11 @@ video {
     padding-right: 5rem;
   }
 
+  .xl\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .xl\:px-\[19\.7rem\] {
     padding-left: 19.7rem;
     padding-right: 19.7rem;
@@ -1154,11 +1171,6 @@ video {
   .xl\:px-\[9\.3rem\] {
     padding-left: 9.3rem;
     padding-right: 9.3rem;
-  }
-
-  .xl\:py-40 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
   }
 
   .xl\:py-\[1\.18rem\] {
@@ -1171,6 +1183,10 @@ video {
     padding-bottom: 1.1rem;
   }
 
+  .xl\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
   .xl\:pb-4 {
     padding-bottom: 1rem;
   }
@@ -1179,8 +1195,17 @@ video {
     padding-bottom: 7.3rem;
   }
 
+  .xl\:pt-40 {
+    padding-top: 10rem;
+  }
+
   .xl\:pt-\[7\.75rem\] {
     padding-top: 7.75rem;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .xl\:text-\[1\.2rem\] {
@@ -1195,13 +1220,39 @@ video {
     font-size: 4.8rem;
   }
 
+  .xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .xl\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
+  .xl\:text-\[\.9rem\] {
+    font-size: .9rem;
+  }
+
+  .xl\:text-\[\.95rem\] {
+    font-size: .95rem;
+  }
+
+  .xl\:text-\[\.97rem\] {
+    font-size: .97rem;
+  }
+
   .xl\:font-medium {
     font-weight: 500;
+  }
+
+  .xl\:font-semibold {
+    font-weight: 600;
   }
 
   .xl\:tracking-\[-\.15rem\] {
