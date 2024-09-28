@@ -989,6 +989,10 @@ video {
     top: 4.6rem;
   }
 
+  .xl\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
   .xl\:ml-2 {
     margin-left: 0.5rem;
   }
@@ -1027,50 +1031,6 @@ video {
 
   .xl\:mt-\[\.65rem\] {
     margin-top: .65rem;
-  }
-
-  .xl\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
-  .xl\:mb-32 {
-    margin-bottom: 8rem;
-  }
-
-  .xl\:mb-24 {
-    margin-bottom: 6rem;
-  }
-
-  .xl\:mb-20 {
-    margin-bottom: 5rem;
-  }
-
-  .xl\:mb-14 {
-    margin-bottom: 3.5rem;
-  }
-
-  .xl\:mb-16 {
-    margin-bottom: 4rem;
-  }
-
-  .xl\:mb-\[5\.5rem\] {
-    margin-bottom: 5.5rem;
-  }
-
-  .xl\:mb-\[7rem\] {
-    margin-bottom: 7rem;
-  }
-
-  .xl\:mt-3 {
-    margin-top: 0.75rem;
-  }
-
-  .xl\:mt-44 {
-    margin-top: 11rem;
-  }
-
-  .xl\:mt-5 {
-    margin-top: 1.25rem;
   }
 
   .xl\:flex {
@@ -1208,6 +1168,10 @@ video {
     line-height: 2rem;
   }
 
+  .xl\:text-\[\.97rem\] {
+    font-size: .97rem;
+  }
+
   .xl\:text-\[1\.2rem\] {
     font-size: 1.2rem;
   }
@@ -1233,18 +1197,6 @@ video {
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .xl\:text-\[\.9rem\] {
-    font-size: .9rem;
-  }
-
-  .xl\:text-\[\.95rem\] {
-    font-size: .95rem;
-  }
-
-  .xl\:text-\[\.97rem\] {
-    font-size: .97rem;
   }
 
   .xl\:font-medium {
