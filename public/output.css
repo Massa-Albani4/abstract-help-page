@@ -958,14 +958,6 @@ video {
   letter-spacing: 0.025em;
 }
 
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-
-.tracking-widest {
-  letter-spacing: 0.1em;
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(25 26 27 / var(--tw-text-opacity));
@@ -1003,142 +995,153 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .lg\:mr-\[27\.45rem\] {
-    margin-right: 27.45rem;
-  }
-
-  .lg\:mr-1 {
-    margin-right: 0.25rem;
-  }
-
-  .lg\:ml-24 {
-    margin-left: 6rem;
-  }
-
-  .lg\:ml-28 {
-    margin-left: 7rem;
-  }
-
-  .lg\:ml-\[6\.5rem\] {
-    margin-left: 6.5rem;
-  }
-
-  .lg\:ml-\[6\.2rem\] {
-    margin-left: 6.2rem;
-  }
-
-  .lg\:ml-\[6\.3rem\] {
-    margin-left: 6.3rem;
+  .lg\:ml-\[20\.4rem\] {
+    margin-left: 20.4rem;
   }
 
   .lg\:ml-\[6\.25rem\] {
     margin-left: 6.25rem;
   }
 
-  .lg\:mt-3 {
-    margin-top: 0.75rem;
+  .lg\:mr-1 {
+    margin-right: 0.25rem;
   }
 
-  .lg\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
-  .lg\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
-  .lg\:mt-\[\.15rem\] {
-    margin-top: .15rem;
+  .lg\:mr-\[27\.45rem\] {
+    margin-right: 27.45rem;
   }
 
   .lg\:mt-0 {
     margin-top: 0px;
   }
 
+  .lg\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .lg\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .lg\:mt-\[\.15rem\] {
+    margin-top: .15rem;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .lg\:mt-\[1\.1rem\] {
+    margin-top: 1.1rem;
+  }
+
+  .lg\:mt-\[1\.07rem\] {
+    margin-top: 1.07rem;
+  }
+
+  .lg\:mt-\[1\.04rem\] {
+    margin-top: 1.04rem;
+  }
+
+  .lg\:mt-\[1\.01rem\] {
+    margin-top: 1.01rem;
+  }
+
+  .lg\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .lg\:mb-36 {
+    margin-bottom: 9rem;
+  }
+
+  .lg\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
+  .lg\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .lg\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .lg\:mb-14 {
+    margin-bottom: 3.5rem;
+  }
+
+  .lg\:mb-\[4\.5rem\] {
+    margin-bottom: 4.5rem;
+  }
+
+  .lg\:ml-72 {
+    margin-left: 18rem;
+  }
+
+  .lg\:ml-60 {
+    margin-left: 15rem;
+  }
+
+  .lg\:ml-52 {
+    margin-left: 13rem;
+  }
+
+  .lg\:mb-\[3\.7rem\] {
+    margin-bottom: 3.7rem;
+  }
+
+  .lg\:mb-\[3\.8rem\] {
+    margin-bottom: 3.8rem;
+  }
+
+  .lg\:mb-\[3\.75rem\] {
+    margin-bottom: 3.75rem;
+  }
+
+  .lg\:ml-40 {
+    margin-left: 10rem;
+  }
+
+  .lg\:ml-44 {
+    margin-left: 11rem;
+  }
+
+  .lg\:ml-48 {
+    margin-left: 12rem;
+  }
+
+  .lg\:ml-\[11\.5rem\] {
+    margin-left: 11.5rem;
+  }
+
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
   .lg\:grid {
     display: grid;
-  }
-
-  .lg\:w-24 {
-    width: 6rem;
-  }
-
-  .lg\:w-\[5\.7rem\] {
-    width: 5.7rem;
-  }
-
-  .lg\:w-\[5\.5rem\] {
-    width: 5.5rem;
-  }
-
-  .lg\:w-\[5\.3rem\] {
-    width: 5.3rem;
-  }
-
-  .lg\:w-\[5rem\] {
-    width: 5rem;
   }
 
   .lg\:w-\[4\.7rem\] {
     width: 4.7rem;
   }
 
+  .lg\:w-\[41\.6rem\] {
+    width: 41.6rem;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  .lg\:px-40 {
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-
-  .lg\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .lg\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
-  .lg\:px-\[3\.8rem\] {
-    padding-left: 3.8rem;
-    padding-right: 3.8rem;
-  }
-
-  .lg\:px-\[9\.7rem\] {
-    padding-left: 9.7rem;
-    padding-right: 9.7rem;
-  }
-
-  .lg\:px-\[9\.5rem\] {
-    padding-left: 9.5rem;
-    padding-right: 9.5rem;
-  }
-
-  .lg\:px-7 {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-  }
-
-  .lg\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:px-28 {
@@ -1146,9 +1149,14 @@ video {
     padding-right: 7rem;
   }
 
-  .lg\:px-36 {
-    padding-left: 9rem;
-    padding-right: 9rem;
+  .lg\:px-\[3\.8rem\] {
+    padding-left: 3.8rem;
+    padding-right: 3.8rem;
+  }
+
+  .lg\:px-\[9\.5rem\] {
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
   }
 
   .lg\:py-40 {
@@ -1156,64 +1164,21 @@ video {
     padding-bottom: 10rem;
   }
 
-  .lg\:pt-48 {
-    padding-top: 12rem;
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
-  .lg\:pt-40 {
-    padding-top: 10rem;
-  }
-
-  .lg\:pt-32 {
-    padding-top: 8rem;
-  }
-
-  .lg\:pt-28 {
-    padding-top: 7rem;
+  .lg\:pb-\[7\.5rem\] {
+    padding-bottom: 7.5rem;
   }
 
   .lg\:pt-\[7\.8rem\] {
     padding-top: 7.8rem;
   }
 
-  .lg\:text-\[5rem\] {
-    font-size: 5rem;
-  }
-
-  .lg\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .lg\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .lg\:text-\[4\.7rem\] {
-    font-size: 4.7rem;
-  }
-
   .lg\:text-\[4\.8rem\] {
     font-size: 4.8rem;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .lg\:text-\[1\.6rem\] {
-    font-size: 1.6rem;
-  }
-
-  .lg\:text-\[1\.7rem\] {
-    font-size: 1.7rem;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-xl {
@@ -1221,40 +1186,21 @@ video {
     line-height: 1.75rem;
   }
 
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .lg\:font-normal {
     font-weight: 400;
   }
 
-  .lg\:tracking-widest {
-    letter-spacing: 0.1em;
+  .lg\:font-medium {
+    font-weight: 500;
   }
 
-  .lg\:tracking-wider {
-    letter-spacing: 0.05em;
-  }
-
-  .lg\:tracking-wide {
-    letter-spacing: 0.025em;
-  }
-
-  .lg\:tracking-\[\.015rem\] {
-    letter-spacing: .015rem;
-  }
-
-  .lg\:tracking-\[\.01rem\] {
-    letter-spacing: .01rem;
-  }
-
-  .lg\:tracking-\[\.007rem\] {
-    letter-spacing: .007rem;
-  }
-
-  .lg\:tracking-\[\.004rem\] {
-    letter-spacing: .004rem;
-  }
-
-  .lg\:tracking-\[\.001rem\] {
-    letter-spacing: .001rem;
+  .lg\:font-semibold {
+    font-weight: 600;
   }
 
   .lg\:tracking-tight {
