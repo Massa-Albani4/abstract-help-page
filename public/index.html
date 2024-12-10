@@ -11,6 +11,7 @@
     <header class="text-white">
       <nav
         class="flex w-full py-5 bg-black-200 xl:py-[1.18rem] lg:py-5 xl:px-20 lg:px-[3.8rem]"
+        id="navbar"
       >
         <ul class="flex flex-row">
           <li class="flex items-center justify-center">
@@ -75,80 +76,102 @@
           <li class="flex items-center">
             <span class="text-[2rem] ml-[.47rem] mr-[.55rem] font-thin">|</span>
             <a
-              class="mt-[.35rem] xl:mt-[.3rem] lg:mr-[27.45rem] text-[1.45rem] font-medium"
+              class="mt-[.35rem] xl:mt-[.3rem] lg:mr-[26rem] text-[1.45rem] font-medium"
               href="./index.html"
               >Help Center</a
             >
           </li>
         </ul>
-        <div
-          class="mt-[.65rem] lg:mt-3 xl:hidden ml-[5.5rem] lg:mr-1 lg:ml-[6.25rem] mr-[.5rem] w-8 h-8"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 30 30"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-search"
+        <button>
+          <div
+            class="mt-[.65rem] lg:mt-3 xl:hidden ml-[5.5rem] lg:mr-1 lg:ml-32 mr-[.5rem] w-8 h-8"
           >
-            <circle
-              cx="11"
-              cy="11"
-              r="8"
-              id="id_101"
-              style="stroke: rgb(255, 255, 255)"
-            ></circle>
-            <line
-              x1="21"
-              y1="21"
-              x2="16.65"
-              y2="16.65"
-              id="id_102"
-              style="stroke: rgb(255, 255, 255)"
-            ></line>
-          </svg>
-        </div>
-        <div class="w-7 h-7 lg:mt-[.15rem]">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="mt-[.4rem] md:mt-2 xl:hidden"
-            viewBox="0 0 23 23"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-menu"
-          >
-            <line
-              x1="3"
-              y1="12"
-              x2="21"
-              y2="12"
-              id="id_101"
-              style="stroke: rgb(255, 255, 255)"
-            ></line>
-            <line
-              x1="3"
-              y1="6"
-              x2="21"
-              y2="6"
-              id="id_102"
-              style="stroke: rgb(255, 255, 255)"
-            ></line>
-            <line
-              x1="3"
-              y1="18"
-              x2="21"
-              y2="18"
-              id="id_103"
-              style="stroke: rgb(255, 255, 255)"
-            ></line>
-          </svg>
-        </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 30 30"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-search"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+                id="id_101"
+                style="stroke: rgb(255, 255, 255)"
+              ></circle>
+              <line
+                x1="21"
+                y1="21"
+                x2="16.65"
+                y2="16.65"
+                id="id_102"
+                style="stroke: rgb(255, 255, 255)"
+              ></line>
+            </svg>
+          </div>
+        </button>
+        <button id="menu-btn" onclick="toggleMenu()">
+          <div class="w-7 h-7">
+            <svg
+              id="menu-open"
+              xmlns="http://www.w3.org/2000/svg"
+              class="mt-[.4rem] lg:mt-[.1rem] xl:hidden"
+              viewBox="0 0 23 23"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-menu"
+            >
+              <line
+                x1="3"
+                y1="12"
+                x2="21"
+                y2="12"
+                id="id_101"
+                style="stroke: rgb(255, 255, 255)"
+              ></line>
+              <line
+                x1="3"
+                y1="6"
+                x2="21"
+                y2="6"
+                id="id_102"
+                style="stroke: rgb(255, 255, 255)"
+              ></line>
+              <line
+                x1="3"
+                y1="18"
+                x2="21"
+                y2="18"
+                id="id_103"
+                style="stroke: rgb(255, 255, 255)"
+              ></line>
+            </svg>
+          </div>
+          <div class="w-7 h-7 top-[2.1rem] absolute">
+            <svg
+              id="menu-exit"
+              class="hidden"
+              viewBox="0 0 590 590"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M84.9407 448.942C78.6923 455.19 68.5616 455.19 62.3132 448.942C56.0649 442.693 56.0649 432.563 62.3132 426.314L233 255.628L62.3132 84.9417C56.0649 78.6933 56.0649 68.5626 62.3132 62.3142C68.5616 56.0658 78.6923 56.0658 84.9407 62.3142L255.627 233.001L426.313 62.3142C432.562 56.0658 442.692 56.0658 448.941 62.3142C455.189 68.5626 455.189 78.6933 448.941 84.9417L278.254 255.628L448.941 426.314C455.189 432.563 455.189 442.693 448.941 448.942C442.692 455.19 432.562 455.19 426.313 448.942L255.627 278.255L84.9407 448.942Z"
+                fill="#ffffff"
+                id="id_101"
+              ></path>
+            </svg>
+          </div>
+        </button>
         <div
           class="hidden xl:mr-4 rounded-lg justify-center xl:flex items-center xl:h-[3.15rem] border-white border-[1px] bg-[#161616] xl:w-[14.5rem] xl:ml-[28.6rem]"
         >
@@ -160,6 +183,23 @@
           <a href="#">Sign In</a>
         </div>
       </nav>
+      <div
+        class="hidden bg-black border-t-[1px] border-gray w-full lg:h-[13.25rem]"
+        id="nav-menu"
+      >
+        <div
+          class="place-self-center lg:flex lg:flex-col lg:justify-center lg:items-center"
+        >
+          <a class="text-white text-2xl lg:pb-4 font-normal" href="#"
+            >Submit a request</a
+          >
+          <a
+            class="text-white text-center lg:pt-4 text-2xl border-t-[1px] lg:w-[31rem] font-thin border-gray"
+            href="#"
+            >Sign in</a
+          >
+        </div>
+      </div>
     </header>
     <main>
       <section
@@ -481,5 +521,6 @@
         </p>
       </div>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
