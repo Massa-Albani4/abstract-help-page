@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         "GT-America": ["GT America Trial", "sans-serif"],
       },
+      screens: {
+        "2xl": "1440px",
+      },
     },
     colors: {
       black: "#191A1B",
