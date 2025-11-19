@@ -10,13 +10,13 @@
   <body class="h-screen debug-screens font-GT-America">
     <header class="text-white">
       <nav
-        class="flex w-full justify-center items-center py-4 px-5 bg-black-200 xl:py-[1.18rem] lg:py-5 2xl:px-20 lg:px-[3.8rem]"
+        class="flex w-full justify-center items-center py-4 px-5 bg-black-200 2xl:py-[1.18rem] lg:py-5 22xl:px-20 lg:px-[3.8rem]"
         id="navbar"
       >
         <ul class="flex flex-row mb-1">
           <li class="flex items-center justify-center">
-            <a class="2xl:mr-4" href="https://www.abstract.com/">
-              <div class="w-28 h-7 2xl:w-40 2xl:h-12">
+            <a class="22xl:mr-4" href="https://www.abstract.com/">
+              <div class="w-28 h-7 22xl:w-40 22xl:h-12">
                 <svg
                   viewBox="0 -1 73 19"
                   fill="none"
@@ -75,7 +75,7 @@
           </li>
           <li class="flex items-center">
             <a
-              class="mt-[.35rem] xl:mt-[.3rem] border-l-2 ml-1 pl-2 lg:mr-[26rem] text-xl 2xl:text-3xl 2xl:pl-5 2xl:mr-0 font-medium"
+              class="mt-[.35rem] 2xl:mt-[.3rem] border-l-2 ml-1 pl-2 lg:mr-[26rem] text-xl 22xl:text-3xl 22xl:pl-5 22xl:mr-0 font-medium"
               href="./index.html"
               >Help Center</a
             >
@@ -83,7 +83,7 @@
         </ul>
         <button>
           <div
-            class="mt-[.65rem] lg:mt-3 xl:hidden ml-24 lg:mr-1 lg:ml-32 mr-1 size-7"
+            class="mt-[.65rem] lg:mt-3 2xl:hidden ml-24 lg:mr-1 lg:ml-32 mr-1 size-7"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@
             <svg
               id="menu-open"
               xmlns="http://www.w3.org/2000/svg"
-              class="mt-1 lg:mt-[.1rem] xl:hidden"
+              class="mt-1 lg:mt-[.1rem] 2xl:hidden"
               viewBox="0 0 23 23"
               fill="none"
               stroke="currentColor"
@@ -172,12 +172,12 @@
           </div>
         </button>
         <div
-          class="hidden 2xl:mr-8 rounded-lg justify-center xl:flex items-center xl:h-[3.15rem] border-white border-[1px] bg-[#161616] xl:w-[14.5rem] xl:ml-[28.6rem]"
+          class="hidden 22xl:mr-8 rounded-lg justify-center 2xl:flex items-center 2xl:h-[3.15rem] border-white border-[1px] bg-[#161616] 2xl:w-[14.5rem] 2xl:ml-[28.6rem]"
         >
           <a class="text-2xl tracking-wide" href="#">Submit a request</a>
         </div>
         <div
-          class="text-2xl hidden bg-blue-200 xl:h-[3.15rem] rounded-lg xl:flex xl:justify-center xl:items-center xl:w-[8.8rem]"
+          class="text-2xl hidden bg-blue-200 2xl:h-[3.15rem] rounded-lg 2xl:flex 2xl:justify-center 2xl:items-center 2xl:w-[8.8rem]"
         >
           <a href="#">Sign In</a>
         </div>
@@ -202,68 +202,72 @@
     </header>
     <main>
       <section
-        class="flex flex-col items-center justify-center px-[.85rem] xl:px-[19.7rem] lg:px-[9.5rem] xl:pt-[7.75rem] lg:pt-[7.8rem] xl:pb-[7.3rem] pb-[8rem] pt-20 bg-blue-100"
+        class="flex flex-col items-center justify-center px-14 2xl:px-[19.7rem] lg:px-[9.5rem] 2xl:pt-[7.75rem] lg:pt-[7.8rem] 2xl:pb-[7.3rem] pb-[8rem] pt-20 bg-blue-100"
       >
         <h1
-          class="tracking-[-.25rem] xl:tracking-[-.15rem] xl:text-[4.8rem] lg:text-[4.8rem] text-[2.5rem] font-medium lg:tracking-tight trac leading-10"
+          class="tracking-[-.25rem] 2xl:tracking-[-.15rem] 2xl:text-[4.8rem] lg:text-[4.8rem] text-4xl font-medium lg:tracking-tight trac leading-10"
         >
           How can we help?
         </h1>
-        <form class="relative w-full" action="submit">
-          <input
-            class="w-full shadow-[0px_7px_20px_2px_#b9c3cc] border-solid text-[1.29rem] xl:text-xl mt-[3.3rem] xl:py-[1.1rem] py-4 border-[1px] px-4 border-black-200 rounded-[.225rem]"
-            type="search"
-            placeholder="Search"
-            name="search"
-            id="search_input"
-          />
-          <input
-            class="absolute size-8 right-3 top-10"
-            type="submit"
-            value=""
-          />
+        <form class="w-full" action="submit">
           <div
-            class="absolute w-8 h-6 xl:w-7 xl:h-5 right-3 xl:right-[.85rem] xl:top-[4.6rem] top-[4.3rem]"
+            class="relative flex flex-row items-center w-80 py-2 shadow-[0px_7px_20px_2px_#b9c3cc] border-solid text-[1.29rem] 2xl:text-xl mt-[3.3rem] 2xl:py-[1.1rem] border-[1px] px-4 border-black-200 rounded-[.225rem]"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
-              <path
-                fill="none"
-                stroke="black"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
-                d="M4 12h16m0 0l-6-6m6 6l-6 6"
-              />
-            </svg>
+            <input
+              class="bg-blue-100 w-[14rem] pr-12 outline-none"
+              type="search"
+              placeholder="Search"
+              name="search"
+              id="search_input"
+            />
+            <button
+              type="submit"
+              class="absolute right-2 top-1/2 transform -translate-y-1/2 w-10 h-10 flex items-center justify-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 25 25"
+                class="size-9"
+              >
+                <path
+                  fill="none"
+                  stroke="black"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                  d="M4 12h16m0 0l-6-6m6 6l-6 6"
+                />
+              </svg>
+            </button>
           </div>
         </form>
       </section>
       <section
-        class="px-12 xl:px-[9.3rem] lg:px-28 lg:py-40 py-28 xl:pt-40 xl:pb-32 lg:pb-[7.5rem]"
+        class="px-12 2xl:px-[9.3rem] lg:px-28 lg:py-40 py-28 2xl:pt-40 2xl:pb-32 lg:pb-[7.5rem]"
       >
         <div
-          class="flex flex-col xl:grid xl:grid-cols-2 lg:grid lg:grid-cols-2"
+          class="flex flex-col 2xl:grid 2xl:grid-cols-2 lg:grid lg:grid-cols-2"
         >
           <div class="flex flex-row">
-            <div class="w-[4.15rem] xl:w-[5.4rem] lg:w-[4.7rem] mt-1 mr-7">
+            <div class="w-[4.15rem] 2xl:w-[5.4rem] lg:w-[4.7rem] mt-1 mr-7">
               <img src="./assets/icon-versions.png" alt="" />
             </div>
-            <div class="flex flex-col w-64 text-black xl:w-[25rem]">
+            <div class="flex flex-col w-64 text-black 2xl:w-[25rem]">
               <p
-                class="pb-[.9rem] xl:pb-4 text-2xl font-semibold tracking-tight xl:tracking-normal"
+                class="pb-[.9rem] 2xl:pb-4 text-2xl font-semibold tracking-tight 2xl:tracking-normal"
               >
                 Using Abstract
               </p>
-              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+              <p class="text-2xl 2xl:tracking-[.04rem] 2xl:text-[1.4rem]">
                 Abstract lets you manage, version, and document your designs in
                 one place.
               </p>
               <div
-                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold lg:font-normal lg:text-xl xl:text-[1.2rem] xl:font-medium text-blue-200"
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold lg:font-normal lg:text-xl 2xl:text-[1.2rem] 2xl:font-medium text-blue-200"
               >
                 <a href="#">Learn More</a>
                 <img
-                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.65rem] xl:ml-2"
+                  class="mt-[.2rem] ml-3 h-6 2xl:h-2 2xl:mt-[.65rem] 2xl:ml-2"
                   src="./assets/arrow-1.jpg"
                   srcset="./assets/arrow-1.jpg, ./assets/arrow-2.jpg 2x"
                   alt=""
@@ -271,26 +275,26 @@
               </div>
             </div>
           </div>
-          <div class="flex xl:mt-0 flex-row mt-[5.7rem] lg:mt-0">
-            <div class="w-[4.15rem] mt-1 mr-7 xl:w-[5.4rem] lg:w-[4.7rem]">
+          <div class="flex 2xl:mt-0 flex-row mt-[5.7rem] lg:mt-0">
+            <div class="w-[4.15rem] mt-1 mr-7 2xl:w-[5.4rem] lg:w-[4.7rem]">
               <img src="./assets/icon-account.png" alt="" />
             </div>
-            <div class="flex flex-col w-64 xl:w-[24rem] text-black">
+            <div class="flex flex-col w-64 2xl:w-[24rem] text-black">
               <p
-                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+                class="pb-[.9rem] 2xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
               >
                 Manage your account
               </p>
-              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+              <p class="text-2xl 2xl:tracking-[.04rem] 2xl:text-[1.4rem]">
                 Configure your account settings, such as your email, profile
                 details, and password.
               </p>
               <div
-                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold xl:text-[1.2rem] lg:font-normal lg:text-xl xl:font-medium text-blue-200"
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold 2xl:text-[1.2rem] lg:font-normal lg:text-xl 2xl:font-medium text-blue-200"
               >
                 <a href="#">Learn More</a>
                 <img
-                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.65rem] xl:ml-2"
+                  class="mt-[.2rem] ml-3 h-6 2xl:h-2 2xl:mt-[.65rem] 2xl:ml-2"
                   src="./assets/arrow-1.jpg"
                   srcset="./assets/arrow-1.jpg, ./assets/arrow-2.jpg 2x"
                   alt=""
@@ -299,25 +303,25 @@
             </div>
           </div>
           <div class="flex flex-row mt-[5.7rem]">
-            <div class="w-[4.15rem] lg:w-[4.7rem] mt-1 mr-7 xl:w-[5.4rem]">
+            <div class="w-[4.15rem] lg:w-[4.7rem] mt-1 mr-7 2xl:w-[5.4rem]">
               <img src="./assets/icon-organizations.png" alt="" />
             </div>
-            <div class="flex flex-col w-64 xl:w-[25rem] text-black">
+            <div class="flex flex-col w-64 2xl:w-[25rem] text-black">
               <p
-                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+                class="pb-[.9rem] 2xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
               >
                 Manage organizations, teams, and projects
               </p>
-              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+              <p class="text-2xl 2xl:tracking-[.04rem] 2xl:text-[1.4rem]">
                 Use Abstract organizations, teams, and projects to organize your
                 people and your work.
               </p>
               <div
-                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold xl:text-[1.2rem] lg:text-xl lg:font-normal xl:font-medium text-blue-200"
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold 2xl:text-[1.2rem] lg:text-xl lg:font-normal 2xl:font-medium text-blue-200"
               >
                 <a href="#">Learn More</a>
                 <img
-                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.65rem] xl:ml-2"
+                  class="mt-[.2rem] ml-3 h-6 2xl:h-2 2xl:mt-[.65rem] 2xl:ml-2"
                   src="./assets/arrow-1.jpg"
                   srcset="./assets/arrow-1.jpg, ./assets/arrow-2.jpg 2x"
                   alt=""
@@ -325,25 +329,25 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-row mt-[5.7rem] xl:w-[30rem]">
-            <div class="w-[4.3rem] mt-1 mr-7 lg:w-[4.7rem] xl:w-[5.4rem]">
+          <div class="flex flex-row mt-[5.7rem] 2xl:w-[30rem]">
+            <div class="w-[4.3rem] mt-1 mr-7 lg:w-[4.7rem] 2xl:w-[5.4rem]">
               <img src="./assets/icon-billing.png" alt="" />
             </div>
-            <div class="flex flex-col w-64 xl:w-[23rem] text-black">
+            <div class="flex flex-col w-64 2xl:w-[23rem] text-black">
               <p
-                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+                class="pb-[.9rem] 2xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
               >
                 Manage billing
               </p>
-              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+              <p class="text-2xl 2xl:tracking-[.04rem] 2xl:text-[1.4rem]">
                 Change subscriptions and payment details.
               </p>
               <div
-                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold lg:text-xl xl:text-[1.2rem] lg:font-normal xl:font-medium text-blue-200"
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold lg:text-xl 2xl:text-[1.2rem] lg:font-normal 2xl:font-medium text-blue-200"
               >
                 <a href="#">Learn More</a>
                 <img
-                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.65rem] xl:ml-2"
+                  class="mt-[.2rem] ml-3 h-6 2xl:h-2 2xl:mt-[.65rem] 2xl:ml-2"
                   src="./assets/arrow-1.jpg"
                   srcset="./assets/arrow-1.jpg, ./assets/arrow-2.jpg 2x"
                   alt=""
@@ -351,25 +355,25 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-row mt-[5.7rem] xl:w-[30rem]">
-            <div class="w-[4.3rem] lg:w-[4.7rem] mt-1 mr-7 xl:w-[5.4rem]">
+          <div class="flex flex-row mt-[5.7rem] 2xl:w-[30rem]">
+            <div class="w-[4.3rem] lg:w-[4.7rem] mt-1 mr-7 2xl:w-[5.4rem]">
               <img src="./assets/icon-authenticate.png" alt="" />
             </div>
-            <div class="flex flex-col w-64 text-black xl:w-96">
+            <div class="flex flex-col w-64 text-black 2xl:w-96">
               <p
-                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+                class="pb-[.9rem] 2xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
               >
                 Authenticate to Abstract
               </p>
-              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+              <p class="text-2xl 2xl:tracking-[.04rem] 2xl:text-[1.4rem]">
                 Set up an configure SSO, SCIM, and Just-in-Time provisioning.
               </p>
               <div
-                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold lg:text-xl xl:text-[1.2rem] lg:font-normal xl:font-medium text-blue-200"
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold lg:text-xl 2xl:text-[1.2rem] lg:font-normal 2xl:font-medium text-blue-200"
               >
                 <a href="#">Learn More</a>
                 <img
-                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.64rem] xl:ml-2"
+                  class="mt-[.2rem] ml-3 h-6 2xl:h-2 2xl:mt-[.64rem] 2xl:ml-2"
                   src="./assets/arrow-1.jpg"
                   srcset="./assets/arrow-1.jpg, ./assets/arrow-2.jpg 2x"
                   alt=""
@@ -377,25 +381,25 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-row mt-24 xl:w-[30rem]">
-            <div class="w-[4.3rem] mt-1 mr-7 lg:w-[4.7rem] xl:w-[5.4rem]">
+          <div class="flex flex-row mt-24 2xl:w-[30rem]">
+            <div class="w-[4.3rem] mt-1 mr-7 lg:w-[4.7rem] 2xl:w-[5.4rem]">
               <img src="./assets/icon-comment.png" alt="" />
             </div>
-            <div class="flex flex-col w-64 text-black xl:w-96">
+            <div class="flex flex-col w-64 text-black 2xl:w-96">
               <p
-                class="pb-[.9rem] xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
+                class="pb-[.9rem] 2xl:pb-4 text-[1.51rem] font-semibold tracking-tight"
               >
                 Abstract support
               </p>
-              <p class="text-2xl xl:tracking-[.04rem] xl:text-[1.4rem]">
+              <p class="text-2xl 2xl:tracking-[.04rem] 2xl:text-[1.4rem]">
                 Get in touch with a human.
               </p>
               <div
-                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold lg:text-xl xl:text-[1.2rem] lg:font-normal xl:font-medium text-blue-200"
+                class="flex-row mt-[1.2rem] text-[1.28rem] flex font-semibold lg:text-xl 2xl:text-[1.2rem] lg:font-normal 2xl:font-medium text-blue-200"
               >
                 <a href="#">Learn More</a>
                 <img
-                  class="mt-[.2rem] ml-3 h-6 xl:h-2 xl:mt-[.64rem] xl:ml-2"
+                  class="mt-[.2rem] ml-3 h-6 2xl:h-2 2xl:mt-[.64rem] 2xl:ml-2"
                   src="./assets/arrow-1.jpg"
                   srcset="./assets/arrow-1.jpg, ./assets/arrow-2.jpg 2x"
                   alt=""
@@ -406,96 +410,96 @@
         </div>
       </section>
     </main>
-    <footer class="grid grid-cols-2 xl:px-24 px-4 lg:px-20 bg-black-200">
+    <footer class="grid grid-cols-2 2xl:px-24 px-4 lg:px-20 bg-black-200">
       <div
-        class="hidden xl:grid xl:w-[55rem] xl:grid-cols-5 lg:grid lg:w-[41.6rem] lg:grid-cols-5 text-white font-GT-America"
+        class="hidden 2xl:grid 2xl:w-[55rem] 2xl:grid-cols-5 lg:grid lg:w-[41.6rem] lg:grid-cols-5 text-white font-GT-America"
       >
         <div
-          class="flex flex-col font-semibold lg:font-medium xl:font-medium mt-11 lg:mt-12"
+          class="flex flex-col font-semibold lg:font-medium 2xl:font-medium mt-11 lg:mt-12"
         >
           <p
-            class="text-[1.51rem] xl:text-2xl xl:font-semibold lg:font-semibold"
+            class="text-[1.51rem] 2xl:text-2xl 2xl:font-semibold lg:font-semibold"
           >
             Abstract
           </p>
           <a
-            class="mt-2 xl:mt-4 lg:mt-3 text-[1.08rem] lg:text-base xl:text-[.97rem]"
+            class="mt-2 2xl:mt-4 lg:mt-3 text-[1.08rem] lg:text-base 2xl:text-[.97rem]"
             href="#"
             >Start Trial</a
           >
-          <a class="text-[1.08rem] xl:text-[.97rem] lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base" href="#"
             >Pricing</a
           >
-          <a class="text-[1.08rem] xl:text-[.97rem] lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base" href="#"
             >Download</a
           >
         </div>
         <div class="flex flex-col mt-11">
-          <p class="text-[1.51rem] xl:text-2xl font-semibold">Resources</p>
+          <p class="text-[1.51rem] 2xl:text-2xl font-semibold">Resources</p>
           <a
-            class="mt-2 xl:mt-4 text-[1.08rem] lg:mt-3 xl:text-[.97rem] lg:text-base"
+            class="mt-2 2xl:mt-4 text-[1.08rem] lg:mt-3 2xl:text-[.97rem] lg:text-base"
             href="#"
             >Blog</a
           >
-          <a class="text-[1.08rem] xl:text-[.97rem] lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base" href="#"
             >Help Center</a
           >
           <a
-            class="text-[1.08rem] xl:text-[.97rem] lg:text-base"
+            class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base"
             text-xl
             href="#"
             >Release Notes</a
           >
           <a
-            class="text-[1.08rem] xl:text-[.97rem] lg:text-base"
+            class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base"
             text-xl
             href="#"
             >Status</a
           >
         </div>
         <div class="flex flex-col mt-11">
-          <p class="text-[1.51rem] xl:text-2xl font-semibold">Community</p>
+          <p class="text-[1.51rem] 2xl:text-2xl font-semibold">Community</p>
           <a
-            class="mt-2 xl:mt-4 text-[1.08rem] xl:text-[.97rem] lg:mt-3 lg:text-base"
+            class="mt-2 2xl:mt-4 text-[1.08rem] 2xl:text-[.97rem] lg:mt-3 lg:text-base"
             href="#"
             >Twitter</a
           >
-          <a class="text-[1.08rem] xl:text-[.97rem] lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base" href="#"
             >LinkedIn</a
           >
-          <a class="text-[1.08rem] xl:text-[.97rem] lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base" href="#"
             >Facebook</a
           >
-          <a class="text-[1.08rem] xl:text-[.97rem] lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base" href="#"
             >Dribble</a
           >
-          <a class="text-[1.08rem] xl:text-[.97rem] lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base" href="#"
             >Podcast</a
           >
         </div>
         <div class="flex flex-col mt-11">
-          <p class="text-[1.51rem] xl:text-2xl font-semibold">Company</p>
+          <p class="text-[1.51rem] 2xl:text-2xl font-semibold">Company</p>
           <a
-            class="text-[1.08rem] lg:text-base mt-2 xl:mt-4 hr-[1.08rem] lg:mt-3 xl:text-[.97rem]"
+            class="text-[1.08rem] lg:text-base mt-2 2xl:mt-4 hr-[1.08rem] lg:mt-3 2xl:text-[.97rem]"
             href="#"
             >About Us</a
           >
-          <a class="text-[1.08rem] xl:text-[.97rem] lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base" href="#"
             >Careers</a
           >
-          <a class="text-[1.08rem] xl:text-[.97rem] lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-[.97rem] lg:text-base" href="#"
             >Legal</a
           >
-          <p class="mt-7 text-[1.1rem] xl:text-base lg:text-base font-bold">
+          <p class="mt-7 text-[1.1rem] 2xl:text-base lg:text-base font-bold">
             Contact Us
           </p>
-          <a class="text-[1.08rem] xl:text-sm lg:text-base" href="#"
+          <a class="text-[1.08rem] 2xl:text-sm lg:text-base" href="#"
             >info@abstract.com</a
           >
         </div>
       </div>
       <div
-        class="w-64 mt-10 xl:mt-48 xl:ml-[20.4rem] lg:mt-48 lg:mb-[3.75rem] lg:ml-[11.5rem] text-white"
+        class="w-64 mt-10 2xl:mt-48 2xl:ml-[20.4rem] lg:mt-48 lg:mb-[3.75rem] lg:ml-[11.5rem] text-white"
       >
         <div class="w-9 h-9">
           <svg
@@ -513,7 +517,7 @@
             />
           </svg>
         </div>
-        <p class="mt-5 xl:mt-4 xl:mb-16 text-xl xl:font-medium">
+        <p class="mt-5 2xl:mt-4 2xl:mb-16 text-xl 2xl:font-medium">
           © Copyright 2024<br />
           Abstract Studio Design, Inc.<br />
           All rights reserved
