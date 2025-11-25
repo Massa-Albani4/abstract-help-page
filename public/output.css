@@ -777,6 +777,14 @@ video {
   width: 100%;
 }
 
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
 .max-w-96 {
   max-width: 24rem;
 }
