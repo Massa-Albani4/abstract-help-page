@@ -32,7 +32,7 @@
             >
           </li>
         </ul>
-        <button>
+        <button class="md:ml-80">
           <div
             class="ml-20 mr-1 mt-1 size-8 lg:ml-32 lg:mr-1 lg:mt-3 2xl:hidden"
           >
@@ -65,9 +65,8 @@
           </div>
         </button>
         <button id="menu-btn" onclick="toggleMenu()">
-          <div class="size-8">
+          <div class="size-8" id="menu-open">
             <svg
-              id="menu-open"
               xmlns="http://www.w3.org/2000/svg"
               class="lg:mt-[.1rem] 2xl:hidden"
               viewBox="0 0 23 23"
@@ -104,11 +103,9 @@
               ></line>
             </svg>
           </div>
-          <div class="hidden h-7 w-7">
+          <div class="hidden size-8" id="menu-close">
             <svg
-              id="menu-exit"
-              class="hidden"
-              viewBox="0 0 590 590"
+              viewBox="0 -22 590 590"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -156,7 +153,7 @@
         class="flex flex-col items-center justify-center bg-blue-100 px-16 pb-[8rem] pt-20 lg:px-[9.5rem] lg:pt-[7.8rem] xl:px-96 2xl:px-[19.7rem] 2xl:pb-[7.3rem] 2xl:pt-[7.75rem]"
       >
         <h1
-          class="text-4xl font-medium leading-10 tracking-[-.25rem] lg:text-[4.8rem] lg:tracking-tight xl:text-6xl 2xl:text-[4.8rem] 2xl:tracking-[-.15rem]"
+          class="text-4xl font-medium leading-10 md:text-4xl xl:text-6xl 2xl:text-[4.8rem] 2xl:tracking-[-.15rem]"
         >
           How can we help?
         </h1>
@@ -165,7 +162,7 @@
             class="relative mt-[3.3rem] flex w-full max-w-96 flex-row items-center rounded-md border-[1px] border-solid border-black-200 px-4 py-1 text-[1.29rem] shadow-[0px_7px_20px_2px_#b9c3cc] 2xl:py-[1.1rem] 2xl:text-xl"
           >
             <input
-              class="w-[15.5rem] bg-blue-100 pr-12 outline-none"
+              class="w-[15.5rem] bg-blue-100 outline-none md:w-[21rem]"
               type="search"
               placeholder="Search"
               name="search"
