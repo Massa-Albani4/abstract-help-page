@@ -737,6 +737,26 @@ video {
   max-width: 24rem;
 }
 
+.max-w-\[25rem\] {
+  max-width: 25rem;
+}
+
+.max-w-\[26rem\] {
+  max-width: 26rem;
+}
+
+.max-w-\[28rem\] {
+  max-width: 28rem;
+}
+
+.max-w-\[27rem\] {
+  max-width: 27rem;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
 .grid-rows-\[auto\2c auto\] {
   grid-template-rows: auto auto;
 }
@@ -1075,6 +1095,10 @@ video {
     width: 41.6rem;
   }
 
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1278,6 +1302,26 @@ video {
     margin-top: 0px;
   }
 
+  .xl\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .xl\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .xl\:mr-8 {
+    margin-right: 2rem;
+  }
+
+  .xl\:mr-6 {
+    margin-right: 1.5rem;
+  }
+
+  .xl\:mr-5 {
+    margin-right: 1.25rem;
+  }
+
   .xl\:hidden {
     display: none;
   }
@@ -1292,6 +1336,11 @@ video {
     height: 2.5rem;
   }
 
+  .xl\:size-9 {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
   .xl\:h-11 {
     height: 2.75rem;
   }
@@ -1304,8 +1353,20 @@ video {
     height: 3rem;
   }
 
+  .xl\:h-28 {
+    height: 7rem;
+  }
+
   .xl\:w-40 {
     width: 10rem;
+  }
+
+  .xl\:w-full {
+    width: 100%;
+  }
+
+  .xl\:w-12 {
+    width: 3rem;
   }
 
   .xl\:px-96 {
@@ -1341,6 +1402,31 @@ video {
   .xl\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .xl\:py-44 {
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+  }
+
+  .xl\:py-52 {
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+  }
+
+  .xl\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .xl\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .xl\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .xl\:pl-6 {
