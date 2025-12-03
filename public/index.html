@@ -10,7 +10,7 @@
   <body class="debug-screens h-screen font-GT-America">
     <header class="text-white">
       <nav
-        class="flex w-full items-center justify-center bg-black-200 px-5 py-4 lg:px-[3.8rem] lg:py-5 xl:px-12 xl:py-4 2xl:px-20 2xl:py-[1.18rem]"
+        class="flex w-full items-center justify-center bg-black-200 px-5 py-4 lg:px-[3.8rem] lg:py-5 xl:px-20 xl:py-4 2xl:px-20 2xl:py-[1.18rem]"
         id="navbar"
       >
         <ul class="mb-1 flex flex-row">
@@ -20,19 +20,19 @@
                 src="https://cdn.prod.website-files.com/5ff3926f03b3ba26b7d639cb/60c388bf3c3ae4d1d10653e7_Abstract_Wordmark-White.svg"
                 loading="lazy"
                 alt=""
-                class="mt-1 h-8 w-28 xl:mt-0 xl:h-11 xl:w-40 2xl:h-12 2xl:w-40"
+                class="mt-1 h-8 w-28 xl:mt-0 xl:h-9 xl:w-32 2xl:h-12 2xl:w-40"
               />
             </a>
           </li>
           <li class="flex items-center">
             <a
-              class="ml-1 mt-[.35rem] border-l-2 pl-2 text-xl font-medium xl:ml-4 xl:mr-96 xl:pl-4 xl:text-2xl 2xl:mr-0 2xl:mt-[.3rem] 2xl:text-3xl"
+              class="ml-1 mt-[.35rem] border-l-2 pl-2 text-xl font-medium xl:ml-3 xl:mt-1 xl:pl-3 2xl:mr-0 2xl:mt-[.3rem] 2xl:text-3xl"
               href="./index.html"
               >Help Center</a
             >
           </li>
         </ul>
-        <button class="md:ml-80 xl:ml-64">
+        <button class="md:ml-80 xl:ml-64 xl:hidden">
           <div
             class="ml-20 mr-1 mt-1 size-8 lg:ml-32 lg:mr-1 lg:mt-3 xl:size-10 2xl:hidden"
           >
@@ -64,7 +64,7 @@
             </svg>
           </div>
         </button>
-        <button id="menu-btn" onclick="toggleMenu()">
+        <button class="xl:hidden" id="menu-btn" onclick="toggleMenu()">
           <div class="size-8 xl:size-10" id="menu-open">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -119,16 +119,16 @@
             </svg>
           </div>
         </button>
-        <div
-          class="hidden items-center justify-center rounded-lg border-[1px] border-white bg-[#161616] 2xl:ml-[28.6rem] 2xl:mr-8 2xl:flex 2xl:h-[3.15rem] 2xl:w-[14.5rem]"
+        <button
+          class="hidden items-center justify-center rounded-md border-[1px] border-gray bg-[#161616] text-lg tracking-wide xl:ml-[34.5rem] xl:mr-4 xl:flex xl:px-4 xl:py-1.5"
         >
-          <a class="text-2xl tracking-wide" href="#">Submit a request</a>
-        </div>
-        <div
-          class="hidden rounded-lg bg-blue-200 text-2xl 2xl:flex 2xl:h-[3.15rem] 2xl:w-[8.8rem] 2xl:items-center 2xl:justify-center"
+          Submit a request
+        </button>
+        <button
+          class="hidden rounded-md bg-blue-200 text-lg xl:flex xl:items-center xl:justify-center xl:px-6 xl:py-1.5"
         >
-          <a href="#">Sign In</a>
-        </div>
+          Sign In
+        </button>
       </nav>
       <div
         class="hidden h-52 w-full border-t-[1px] border-gray bg-black lg:hidden lg:h-[13.25rem] xl:hidden"
