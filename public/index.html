@@ -373,9 +373,9 @@
       </section>
     </main>
     <footer
-      class="grid grid-rows-[auto,auto] bg-black-200 px-10 pb-20 md:pl-8 md:pr-3 xl:grid-cols-[auto,auto] xl:px-20 2xl:px-24"
+      class="grid grid-rows-[auto,auto] bg-black-200 px-10 pb-20 md:pl-8 md:pr-3 xl:px-20 2xl:px-24"
     >
-      <div class="mt-6 w-64 md:mt-11 2xl:ml-[20.4rem]">
+      <div class="mt-6 w-64 md:mt-11 xl:hidden 2xl:ml-[20.4rem]">
         <img
           src="https://cdn.prod.website-files.com/5ff3926f03b3ba26b7d639cb/60c388bf3c3ae4d1d10653e7_Abstract_Wordmark-White.svg"
           loading="lazy"
@@ -384,9 +384,15 @@
         />
       </div>
       <div
-        class="font-GT-America text-gray sm:hidden md:grid md:w-[41.6rem] md:grid-cols-4 2xl:grid 2xl:w-[55rem] 2xl:grid-cols-5"
+        class="xl:grid-cols-footer font-GT-America text-gray sm:hidden md:grid md:w-[41.6rem] md:grid-cols-4 2xl:grid 2xl:w-[55rem]"
       >
-        <div class="mt-11 flex flex-col text-base md:mt-7">
+        <div class="mt-11 flex flex-col text-base md:mt-7 xl:mt-11">
+          <p class="text-2xl font-semibold text-white md:text-lg 2xl:text-2xl">
+            Abstract
+          </p>
+          <a class="mt-2 md:mb-1.5 md:mt-1 2xl:mt-4" href="#">Branches</a>
+        </div>
+        <div class="mt-11 flex flex-col text-base md:mt-7 xl:mt-11">
           <p class="text-2xl font-semibold text-white md:text-lg 2xl:text-2xl">
             Resources
           </p>
@@ -396,7 +402,7 @@
           <a class="md:mb-1.5" href="#">Release Notes</a>
           <a class="md:mb-1.5" href="#">Status</a>
         </div>
-        <div class="mt-11 flex flex-col md:mt-7">
+        <div class="mt-11 flex flex-col md:mt-7 xl:mt-11">
           <p
             class="text-[1.51rem] font-semibold text-white md:text-lg 2xl:text-2xl"
           >
@@ -430,7 +436,7 @@
             >
           </div>
         </div>
-        <div class="mt-11 flex flex-col md:mt-7">
+        <div class="mt-11 flex flex-col md:mt-7 xl:mt-11">
           <p class="text-2xl font-semibold text-white md:text-lg">Social</p>
           <a
             class="mt-2 text-base md:mb-1.5 md:mt-1 lg:mt-3 lg:text-base 2xl:mt-4 2xl:text-[.97rem]"
@@ -448,6 +454,7 @@
           >
         </div>
         <div class="flex flex-row text-right text-gray md:ml-1 md:mt-52">
+          <img class="hidden md:hidden" src="/src/logo.svg" alt="" />
           <p
             class="mt-2 text-lg text-white md:text-xs md:font-bold 2xl:mb-16 2xl:mt-4 2xl:font-medium"
           >

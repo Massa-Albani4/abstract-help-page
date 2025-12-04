@@ -11,6 +11,9 @@ module.exports = {
         "2xl": "1440px",
         sm: "432px",
       },
+      gridTemplateColumns: {
+        footer: "repeat(5, 14rem)",
+      },
     },
     colors: {
       black: "#191A1B",
