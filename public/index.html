@@ -10,7 +10,7 @@
   <body class="debug-screens h-screen font-GT-America">
     <header class="text-white">
       <nav
-        class="flex w-full items-center justify-center bg-black-200 px-5 py-4 lg:px-[3.8rem] lg:py-5 xl:px-20 xl:py-4 2xl:px-20 2xl:py-[1.18rem]"
+        class="flex w-full items-center justify-center bg-black-200 px-5 py-4 lg:px-[3.8rem] lg:py-5 xl:px-14 xl:py-4 2xl:px-20 2xl:py-[1.18rem]"
         id="navbar"
       >
         <ul class="mb-1 flex flex-row">
@@ -26,7 +26,7 @@
           </li>
           <li class="flex items-center">
             <a
-              class="ml-1 mt-[.35rem] border-l-2 pl-2 text-xl font-medium xl:ml-3 xl:mt-1 xl:pl-3 2xl:mr-0 2xl:mt-[.3rem] 2xl:text-3xl"
+              class="ml-1 mt-[.35rem] border-l-2 pl-2 text-xl font-medium xl:ml-3 xl:mt-0 xl:pl-3 xl:text-2xl 2xl:mr-0 2xl:mt-[.3rem] 2xl:text-3xl"
               href="./index.html"
               >Help Center</a
             >
@@ -120,7 +120,7 @@
           </div>
         </button>
         <button
-          class="hidden items-center justify-center rounded-md border-[1px] border-gray bg-[#161616] text-lg tracking-wide xl:ml-[34.5rem] xl:mr-4 xl:flex xl:px-4 xl:py-1.5"
+          class="hidden items-center justify-center rounded-md border-[1px] border-gray bg-[#161616] text-lg tracking-wide xl:ml-[36rem] xl:mr-4 xl:flex xl:px-4 xl:py-1.5"
         >
           Submit a request
         </button>
@@ -135,7 +135,7 @@
         id="nav-menu"
       >
         <div
-          class="flex flex-col place-self-center lg:flex-col lg:items-center lg:justify-center"
+          class="flex flex-col items-center justify-center place-self-center lg:flex-col lg:items-center lg:justify-center"
         >
           <a class="pb-4 text-2xl font-normal text-white lg:pb-4" href="#"
             >Submit a request</a
@@ -373,27 +373,23 @@
       </section>
     </main>
     <footer
-      class="grid grid-rows-[auto,auto] bg-black-200 px-10 pb-20 text-white md:pl-8 md:pr-3 xl:px-20 xl:pb-14 2xl:px-24"
+      class="grid grid-rows-[auto,auto] bg-black-200 px-10 pb-0 text-white md:pb-20 md:pl-8 md:pr-3 xl:px-20 xl:pb-14 2xl:px-24"
     >
-      <div class="mt-6 w-64 md:mt-11 xl:hidden 2xl:ml-[20.4rem]">
-        <img
-          src="https://cdn.prod.website-files.com/5ff3926f03b3ba26b7d639cb/60c388bf3c3ae4d1d10653e7_Abstract_Wordmark-White.svg"
-          loading="lazy"
-          alt=""
-          class="mt-1 block h-14 w-32 md:h-16 md:w-40 2xl:h-12 2xl:w-40"
-        />
-      </div>
       <div
-        class="xl:grid-cols-footer font-GT-America sm:hidden md:grid md:w-[41.6rem] md:grid-cols-4 2xl:grid 2xl:w-[55rem]"
+        class="grid grid-cols-2 font-GT-America md:w-[41.6rem] md:grid-cols-4 xl:grid-cols-footer 2xl:w-[55rem]"
       >
-        <div class="mt-11 flex flex-col text-base md:mt-7 xl:mt-11">
-          <p class="text-2xl font-semibold md:text-lg 2xl:text-2xl">Abstract</p>
+        <div
+          class="mt-11 text-base sm:hidden md:mt-7 md:hidden xl:mt-11 xl:flex xl:flex-col"
+        >
+          <p class="text-base font-semibold md:text-lg 2xl:text-2xl">
+            Abstract
+          </p>
           <a class="mt-2 md:mb-1.5 md:mt-1 xl:mt-4 2xl:mt-4" href="#"
             >Branches</a
           >
         </div>
-        <div class="mt-11 flex flex-col text-base md:mt-7 xl:mt-11">
-          <p class="text-2xl font-semibold md:text-lg 2xl:text-2xl">
+        <div class="mt-11 flex flex-col text-sm md:mt-10 xl:mt-11">
+          <p class="text-2xl font-semibold sm:text-sm md:text-lg 2xl:text-2xl">
             Resources
           </p>
           <a class="mt-2 md:mb-1.5 md:mt-1 xl:mt-4 2xl:mt-4" href="#">Blog</a>
@@ -401,59 +397,57 @@
           <a class="md:mb-1.5" href="#">Release Notes</a>
           <a class="md:mb-1.5" href="#">Status</a>
         </div>
-        <div class="mt-11 flex flex-col md:mt-7 xl:mt-11">
-          <p class="text-2xl font-semibold md:text-lg">Community</p>
+        <div class="mt-11 flex flex-col text-sm md:mt-10 xl:mt-11">
+          <p class="text-2xl font-semibold sm:text-sm md:text-lg">Community</p>
           <a
-            class="mt-2 text-base md:mb-1.5 md:mt-1 lg:mt-3 lg:text-base xl:mt-4 2xl:mt-4 2xl:text-[.97rem]"
+            class="mt-2 md:mb-1.5 md:mt-1 lg:mt-3 lg:text-base xl:mt-4 2xl:mt-4 2xl:text-[.97rem]"
             href="#"
             >Twitter</a
           >
-          <a class="text-base md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#"
+          <a class="md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#"
             >LinkedIn</a
           >
-          <a class="text-base md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#"
+          <a class="md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#"
             >Facebook</a
           >
-          <a class="text-base md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#"
+          <a class="md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#"
             >Dribble</a
           >
         </div>
-        <div class="mt-11 flex flex-col md:mt-7 xl:mt-11">
-          <p class="text-[1.51rem] font-semibold md:text-lg 2xl:text-2xl">
+        <div class="mt-5 flex flex-col text-sm md:mt-10 xl:mt-11">
+          <p
+            class="text-[1.51rem] font-semibold sm:text-sm md:text-lg 2xl:text-2xl"
+          >
             Company
           </p>
           <a
-            class="mt-2 text-base md:mb-1.5 md:mt-1 lg:mt-3 lg:text-base xl:mt-4 2xl:mt-4 2xl:text-[.97rem]"
+            class="mt-2 md:mb-1.5 md:mt-1 lg:mt-3 lg:text-base xl:mt-4 2xl:mt-4 2xl:text-[.97rem]"
             href="#"
             >About Us</a
           >
-          <a class="text-base md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#"
+          <a class="md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#"
             >Careers</a
           >
-          <a class="text-base md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#"
-            >Legal</a
-          >
-          <div class="md:mr-10">
+          <a class="md:mb-1.5 lg:text-base 2xl:text-[.97rem]" href="#">Legal</a>
+          <div class="text-sm md:mr-10">
             <p
-              class="mt-1 text-lg font-bold lg:text-base xl:mt-6 2xl:text-base"
+              class="mt-3 text-lg font-bold sm:text-sm lg:text-base xl:mt-6 2xl:text-base"
             >
               Contact Us
             </p>
-            <a class="text-base lg:text-base 2xl:text-sm" href="#"
-              >info@abstract.com</a
-            >
+            <a class="lg:text-base 2xl:text-sm" href="#">info@abstract.com</a>
           </div>
         </div>
         <div
-          class="flex flex-row text-right md:ml-1 md:mt-52 xl:flex-col xl:text-left"
+          class="flex flex-col sm:mt-5 sm:text-left md:mt-36 md:items-end md:text-right xl:items-start xl:text-left"
         >
           <img
-            class="hidden md:hidden xl:inline-block xl:size-9"
+            class="inline-block size-7 md:size-8 xl:size-9"
             src="/src/logo.svg"
             alt=""
           />
           <p
-            class="mt-2 text-lg md:text-xs md:font-bold xl:mt-5 xl:text-base xl:font-medium 2xl:mb-16"
+            class="mt-4 text-sm md:mt-5 md:text-xs md:font-bold xl:mt-5 xl:text-base xl:font-medium 2xl:mb-16"
           >
             © Copyright 2022
             <br />

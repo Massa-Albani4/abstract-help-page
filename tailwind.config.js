@@ -13,6 +13,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         footer: "repeat(5, 14rem)",
+        4: "repeat(4, 11rem)",
       },
     },
     colors: {
